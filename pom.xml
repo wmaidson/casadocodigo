@@ -55,18 +55,21 @@
         <artifactId>slf4j-api</artifactId>
         <version>1.6.1</version>
     </dependency>
+
     <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>jcl-over-slf4j</artifactId>
         <version>1.6.1</version>
         <scope>runtime</scope>
     </dependency>
+
     <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-log4j12</artifactId>
         <version>1.6.1</version>
         <scope>runtime</scope>
     </dependency>
+
     <dependency>
         <groupId>log4j</groupId>
         <artifactId>log4j</artifactId>
@@ -79,16 +82,19 @@
 	    <artifactId>hibernate-core</artifactId>
 	    <version>4.3.0.Final</version>
 	</dependency>
+
 	<dependency>
 	    <groupId>org.hibernate.javax.persistence</groupId>
 	    <artifactId>hibernate-jpa-2.1-api</artifactId>
 	    <version>1.0.0.Final</version>
 	</dependency>
+
 	<dependency>
 	    <groupId>org.springframework</groupId>
 	    <artifactId>spring-orm</artifactId>
 	    <version>4.1.0.RELEASE</version>
 	</dependency>
+
 	<dependency>
 	    <groupId>mysql</groupId>
 	    <artifactId>mysql-connector-java</artifactId>
@@ -100,6 +106,7 @@
           <artifactId>validation-api</artifactId>
           <version>1.0.0.GA</version>
       </dependency>
+
       <dependency>
           <groupId>org.hibernate</groupId>
           <artifactId>hibernate-validator</artifactId>
@@ -119,16 +126,11 @@
       </dependency>
 
       <dependency>
-          <groupId>org.hibernate</groupId>
-          <artifactId>hibernate-core</artifactId>
-          <version>4.1.4.Final</version>
-      </dependency>
-
-      <dependency>
       <groupId>org.javassist</groupId>
       <artifactId>javassist</artifactId>
       <version>3.20.0-GA</version>
       </dependency>
+
   </dependencies>
   
   <properties>
